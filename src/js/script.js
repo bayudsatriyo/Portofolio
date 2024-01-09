@@ -1,18 +1,14 @@
 window.onscroll = function () {
   const header = document.querySelector("header");
   const fixedNav = header.offsetTop;
-  const hamburger = document.getElementById("hamburger");
 
   if (window.pageYOffset > fixedNav) {
     header.classList.add("navbar-fixed");
-    hamburger.classList.remove("right-4");
-    hamburger.classList.add("right-[79px]");
   } else {
     header.classList.remove("navbar-fixed");
-    hamburger.classList.remove("right-[79px]");
-    hamburger.classList.add("right-4");
   }
 };
+
 const hamburger = document.getElementById("hamburger");
 const NavMenu = document.querySelector("#nav-menu");
 
