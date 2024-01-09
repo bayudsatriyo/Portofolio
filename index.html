@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bayu Dwi Satriyo</title>
-    <link href="./styles/output.css" rel="stylesheet" />
-    <link rel="icon" href="./public/logoB-removebg.png" />
+    <link href="./src/styles/output.css" rel="stylesheet" />
+    <link rel="icon" href="./src/public/logoB-removebg.png" />
   </head>
   <body>
     <header
@@ -23,7 +23,7 @@
               id="hamburger"
               name="hamburger"
               type="button"
-              class="block absolute right-4 lg:hidden"
+              class="block relative right-4 lg:hidden"
             >
               <span
                 class="hamburger-line transition duration-300 ease-in-out origin-top-left"
@@ -119,15 +119,14 @@
             <div class="w-full self-end px-4 lg:w-1/2">
               <div class="mt-10 relative lg:mt-9 lg:right-0">
                 <img
-                  src="./public/profile.png"
+                  src="./src/public/profile.png"
                   alt="Bayu Dwi Satriyo"
                   class="w-2/3 mx-auto"
                 />
                 <span class="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2"
                   ><svg
                     viewBox="0 0 200 200"
-                    width="500"
-                    height="600"
+                    class="w-[500px] h-[300px] md:h-[500px]"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
@@ -318,9 +317,9 @@
               <div class="rounded-md shadow-md overflow-hidden">
                 <a href="https://brandbiz-api-2n5hzcnb7q-uc.a.run.app/docs/">
                   <img
-                    src="./public/restApi_brandbiz.PNG"
+                    src="./src/public/restApi_brandbiz.PNG"
                     alt="Rest Api Brandbiz"
-                    width="w-full"
+                    width="w-full h-96"
                   />
                 </a>
               </div>
@@ -342,7 +341,7 @@
                 <a
                   href="https://mandoor-app-dio6gkj3fa-uc.a.run.app/documentation"
                   ><img
-                    src="./public/RestApi_Mandoor-app.PNG"
+                    src="./src/public/RestApi_Mandoor-app.PNG"
                     alt="Rest Api MandoorApp"
                     width="w-full"
                 /></a>
@@ -369,7 +368,7 @@
               <div class="rounded-md shadow-md overflow-hidden">
                 <a href="https://brand-biz.vercel.app/">
                   <img
-                    src="./public/brandbiz-web.PNG"
+                    src="./src/public/brandbiz-web.PNG"
                     alt="BrandbizWeb"
                     width="w-full"
                   />
@@ -394,7 +393,7 @@
               <div class="rounded-md shadow-md overflow-hidden">
                 <a href="https://mandoor.netlify.app/">
                   <img
-                    src="./public/mandoor-web.PNG"
+                    src="./src/public/mandoor-web.PNG"
                     alt="MandoorProfile"
                     width="w-full"
                   />
@@ -445,11 +444,11 @@
                   class="bg-transparent rounded-tl-2xl shadow-lg shadow-slate-950 rounded-br-2xl overflow-hidden mb-10"
                 >
                   <img
-                    src="./public/bangkit.jpg"
+                    src="./src/public/bangkit.jpg"
                     alt="Bangkit2023"
                     class="w-full"
                   />
-                  <div class="py-8 px-6 h-80">
+                  <div class="py-8 px-6 md:h-80">
                     <h3 class="mb-3 text-white font-semibold text-xl">
                       Bangkit Batch 2 2023
                     </h3>
@@ -468,7 +467,7 @@
                   class="bg-transparent rounded-tl-2xl shadow-lg shadow-slate-950 rounded-br-2xl overflow-hidden mb-10"
                 >
                   <img
-                    src="./public/dicoding.png"
+                    src="./src/public/dicoding.png"
                     alt="SIBDicoding"
                     class="w-full"
                   />
@@ -491,8 +490,12 @@
                 <div
                   class="bg-transparent rounded-tl-2xl shadow-lg shadow-slate-950 rounded-br-2xl overflow-hidden mb-10"
                 >
-                  <img src="./public/exp1.jpg" alt="LKMMTM" class="w-full" />
-                  <div class="py-8 px-6 h-80">
+                  <img
+                    src="./src/public/exp1.jpg"
+                    alt="LKMMTM"
+                    class="w-full"
+                  />
+                  <div class="py-8 px-6 md:h-80">
                     <h3>
                       <a
                         href=""
@@ -517,11 +520,11 @@
                   class="bg-transparent rounded-tl-2xl shadow-lg shadow-slate-950 rounded-br-2xl overflow-hidden mb-10"
                 >
                   <img
-                    src="./public/exp3.jpg"
+                    src="./src/public/exp3.jpg"
                     alt="programming"
                     class="w-full"
                   />
-                  <div class="py-8 px-6 h-96">
+                  <div class="py-8 px-6">
                     <h3 class="mb-3 font-semibold text-xl text-white">
                       LKMM-TL Jakarta 2023
                     </h3>
@@ -544,15 +547,15 @@
                   class="bg-transparent rounded-tl-2xl shadow-lg shadow-slate-950 rounded-br-2xl overflow-hidden mb-10"
                 >
                   <img
-                    src="./public/exp2.jpg"
+                    src="./src/public/exp2.jpg"
                     alt="programming"
                     class="w-full"
                   />
-                  <div class="py-8 px-6 h-96">
+                  <div class="py-8 px-6 md:h-[415px]">
                     <h3 class="mb-3 font-semibold text-xl text-white">
                       Bem Universitas Sahid Surakarta
                     </h3>
-                    <p class="font-medium text-slate-200 mb-6">
+                    <p class="font-medium text-slate-200">
                       Saya juga mengikuti Badan Eksekutif Mahasiswa Universitas
                       Sahid Surakarta 2021-2024. saya mengikuti Bem Universitas
                       Sahid Surakarta selama 2 periode. Periode pertama saya
@@ -591,7 +594,7 @@
                   class="bg-white rounded-xl shadow-lg overflow-hidden mb-10"
                 >
                   <img
-                    src="./public/sertifDicoding.jpg"
+                    src="./src/public/sertifDicoding.jpg"
                     alt="Sertifikat Dicoding"
                     class="w-full"
                   />
@@ -613,7 +616,7 @@
                   class="bg-white rounded-xl shadow-lg overflow-hidden mb-10"
                 >
                   <img
-                    src="./public/backendpemula.jpg"
+                    src="./src/public/backendpemula.jpg"
                     alt="backendpemula"
                     class="w-full"
                   />
@@ -635,7 +638,7 @@
                   class="bg-white rounded-xl shadow-lg overflow-hidden mb-10"
                 >
                   <img
-                    src="./public/FundamentalBE.jpg"
+                    src="./src/public/FundamentalBE.jpg"
                     alt="Fundamental Backend"
                     class="w-full"
                   />
@@ -657,7 +660,7 @@
                   class="bg-white rounded-xl shadow-lg overflow-hidden mb-10"
                 >
                   <img
-                    src="./public/cloudengineer.jpg"
+                    src="./src/public/cloudengineer.jpg"
                     alt="cloudengineer"
                     class="w-full"
                   />
@@ -679,7 +682,7 @@
                   class="bg-white rounded-xl shadow-lg overflow-hidden mb-10"
                 >
                   <img
-                    src="./public/belajarfundamentalFE.jpg"
+                    src="./src/public/belajarfundamentalFE.jpg"
                     alt="Funadmental FE"
                     class="w-full"
                   />
@@ -701,7 +704,7 @@
                   class="bg-white rounded-xl shadow-lg overflow-hidden mb-10"
                 >
                   <img
-                    src="./public/FEexpert.jpg"
+                    src="./src/public/FEexpert.jpg"
                     alt="Front end experts"
                     class="w-full"
                   />
@@ -723,7 +726,7 @@
                   class="bg-white rounded-xl shadow-lg overflow-hidden mb-10"
                 >
                   <img
-                    src="./public/ReactPemula.jpg"
+                    src="./src/public/ReactPemula.jpg"
                     alt="React Dasar"
                     class="w-full"
                   />
@@ -744,7 +747,11 @@
                 <div
                   class="bg-white rounded-xl shadow-lg overflow-hidden mb-10"
                 >
-                  <img src="./public/lkmmtl.jpg" alt="LKMMTL" class="w-full" />
+                  <img
+                    src="./src/public/lkmmtl.jpg"
+                    alt="LKMMTL"
+                    class="w-full"
+                  />
                   <div class="py-2 px-6">
                     <h3>
                       <a
@@ -762,7 +769,11 @@
                 <div
                   class="bg-white rounded-xl shadow-lg overflow-hidden mb-10"
                 >
-                  <img src="./public/LKMM-TM.jpg" alt="LKMMTM" class="w-full" />
+                  <img
+                    src="./src/public/LKMM-TM.jpg"
+                    alt="LKMMTM"
+                    class="w-full"
+                  />
                   <div class="py-2 px-6">
                     <h3>
                       <a
@@ -781,7 +792,7 @@
                   class="bg-white rounded-xl shadow-lg overflow-hidden mb-10"
                 >
                   <img
-                    src="./public/g2academy.jpg"
+                    src="./src/public/g2academy.jpg"
                     alt="G2AcademyBootcamp"
                     class="w-full"
                   />
@@ -803,7 +814,7 @@
                   class="bg-white rounded-xl shadow-lg overflow-hidden mb-10"
                 >
                   <img
-                    src="./public/bangkit.jpg"
+                    src="./src/public/bangkit.jpg"
                     alt="Front end experts"
                     class="w-full pb-4"
                   />
@@ -970,6 +981,6 @@
         </div>
       </div>
     </footer>
-    <script src="./js/script.js"></script>
+    <script src="./src/js/script.js"></script>
   </body>
 </html>
